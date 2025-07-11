@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
 
 # Step 1: Import necessary libraries
 import pandas as pd
@@ -58,10 +53,6 @@ plt.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=140, colors=colors, 
 plt.title('Fake vs. Real News Distribution')
 plt.axis('equal')  # Equal aspect ratio ensures the pie is circular
 plt.show()
-
-
-# In[ ]:
-
 
 # =========================
 # 1. Controlled Experiment Runner (with Confusion Matrix)
@@ -190,10 +181,6 @@ plt.tight_layout()
 plt.show()
 
 
-
-# In[ ]:
-
-
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
@@ -317,10 +304,6 @@ for idx, cm in enumerate(confusion_matrices):
 plt.tight_layout()
 plt.show()
 
-
-# In[ ]:
-
-
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
@@ -409,14 +392,6 @@ for idx, cm in enumerate(confusion_matrices):
 plt.tight_layout()
 plt.show()
 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
